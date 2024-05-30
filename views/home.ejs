@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        background-color: rgb(44, 44, 44);
+        box-sizing: border-box;
+    }
+
+    .header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height:100px;
+        margin-top:200px;
+        
+        justify-content:space-between;
+    }
+    .header a{
+        
+        text-decoration: none;
+        outline:none;
+        font-size:25px;
+        font-weight: bold;
+        text-align: center;
+        border:1px solid grey;
+        padding:10px;
+        
+        text-transform:uppercase;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color:transparent;
+        color:black;
+        border-radius:20px;
+       
+        transition:.6s;
+        
+    }
+    a:hover{
+        background-color:black;
+        border-radius:0px;
+        text-shadow: none;
+        border:1.8px solid white;
+        box-shadow:0px 0px 10px skyblue;
+      
+        color:azure;
+        
+    }
+    
+</style>
+<body>
+
+    <div class="header">
+
+        <div class="one"><a href="./register.ejs" for = "register">Register</a></div>
+        <div class="two"><a href="./login.ejs">Login</a></div>
+    </div>
+    
+</body>
+</html>
